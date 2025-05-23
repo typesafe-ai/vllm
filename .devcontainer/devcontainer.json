@@ -17,8 +17,5 @@
       "--gpus",
       "all"
     ],
-    "mounts": [
-      "source=${localWorkspaceFolder}/.cache/docker_ccache,target=/root/.cache/ccache,type=bind"
-        ],
     "postCreateCommand": "bash /tmp/setup.sh"
   }
